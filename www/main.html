@@ -1,0 +1,49 @@
+<ons-page>
+    <ons-toolbar>
+        <div class="left">
+            <ons-toolbar-button ng-click="slidingMenu.toggleMenu()"><ons-icon icon="bars"></ons-icon></ons-toolbar-button>
+        </div>
+        <div class="center">Main Page</div>
+    </ons-toolbar>
+    <style>
+table {
+    border-collapse: collapse;
+}
+td {
+	border: solid 1px;
+	padding: 0.5em;
+}
+</style>
+    
+    <div style="text-align: center">
+      <table>
+  <caption>新着情報</caption>
+  <tr>
+    <th>日付</th>
+    <th>内容</th>
+  </tr>
+  <tr>
+    <td>2016,11/10</td>
+    <td><a href="http://www.city.ube.yamaguchi.jp/boshuu/kenkou_kodomo/h28_oyako.html">平成28年度親子であ・そ・ぼ（楽しい親子参加イベント開催支援事業）助成金交付団体四次募集</a></td>
+  </tr>
+  <tr>
+    <td>2016,11/8</td>
+    <td><a href="http://www.city.ube.yamaguchi.jp/kosodate/kyouiku/kyouikuiinkai/about.html">教育委員会について</a></td>
+  </tr>
+  <tr>
+    <td>2016,11/1</td>
+    <td><a href="http://www.city.ube.yamaguchi.jp/kosodate/kosodateshien/gyakutai/index.html">子ども虐待が疑われるとき</a></td>
+  </tr>
+  <tr>
+    <td>2016,11/1</td>
+    <td><a href="http://www.city.ube.yamaguchi.jp/kosodate/kosodateshien/gyakutai/boushigekkann2.html">11月は児童虐待防止推進月間です</a></td>
+  </tr>
+  <tr>
+    <td>2016,10/31</td>
+    <td><a href="http://www.city.ube.yamaguchi.jp/kosodate/kyouiku/gakkoukyouiku/index.html">学校教育</a></td>
+  </tr>
+</table>
+        
+        <ons-button onclick="slidingMenu.setMainPage('map.html')">Back</ons-button>
+    </div>
+</ons-page>

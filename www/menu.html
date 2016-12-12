@@ -1,0 +1,30 @@
+<ons-page style="background-color: white">
+    <ons-list>
+        <ons-list-item
+            modifier="tappable" class="list__item__line-height"
+            onclick="slidingMenu.setMainPage('main.html', {closeMenu: true})">
+            <i class="fa fa-home fa-lg" style="color: #666"></i>
+            &nbsp; メインページ
+        </ons-list-item>
+        <ons-list-item
+            modifier="tappable" class="list__item__line-height"
+            onclick="slidingMenu.setMainPage('map.html', {closeMenu: true})">
+            <ons-icon size="22px" icon="ion-compass" fixed-width="true"></ons-icon>
+            &nbsp; 地図
+        </ons-list-item>
+        <ons-list-item
+            modifier="tappable" class="list__item__line-height"
+            onclick="slidingMenu.setMainPage('yobou.html', {closeMenu: true})">
+            <i class="fa fa-hospital-o" aria-hidden="true"></i>
+            &nbsp; 予防接種一覧
+        </ons-list-item>
+        <ons-list-item
+            modifier="tappable" class="list__item__line-height"
+            onclick="slidingMenu.setMainPage('syounika.html', {closeMenu: true})">
+            <ons-icon size="22px" icon="child" fixed-width="true"></ons-icon>
+            
+            &nbsp; 小児科一覧
+        </ons-list-item>
+        
+    </ons-list>
+</ons-page>
